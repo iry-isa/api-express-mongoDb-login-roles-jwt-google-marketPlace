@@ -46,11 +46,6 @@ let usuarioSchema = new Schema({
     },
 
 
-    //falta la function de oauth
-    facebook: {
-        type: Boolean,
-        default: false
-    },
 
 
     fecha_registro: { type: Date, required: true },

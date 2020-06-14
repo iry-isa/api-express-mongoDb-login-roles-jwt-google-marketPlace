@@ -218,11 +218,7 @@ app.post('/google', async(req, res) => {
 
 
 
-facebookOAuth: async(req, res, next) => {
-        //generate token
-        const token = signToken(req.user);
-        res.status(200).json({ token });
-    },
 
 
-    module.exports = app;
+
+module.exports = app;
